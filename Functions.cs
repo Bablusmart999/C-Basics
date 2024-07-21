@@ -7,7 +7,14 @@ class Functions
         }
      public int Subtract(int x,int y)
         {
+            if (x>y)
+        {
             return x-y;
+        }
+        else
+        {
+            return y-x;
+        }
         }
     public int Multiply(int x,int y)
     {
