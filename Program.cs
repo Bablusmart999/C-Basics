@@ -5,6 +5,10 @@ class Program
         {
             return x+y;
         }
+     public int Subtract(int x,int y)
+        {
+            return x-y;
+        }
     public int Multiply(int x,int y)
     {
         return x*y;
@@ -30,10 +34,12 @@ class Program
         
         Program s = new Program();
         int sum = s.Sum(n1, n2);
+        int subtract = s.Subtract(n1, n2);
         int multiply = s.Multiply(n1, n2);
         int division = s.Division(n1, n2);
         
         Console.WriteLine($"Sum: {sum}");
+        Console.WriteLine($"Subtract: {subtract}");
         Console.WriteLine($"Multiply: {multiply}");
         Console.WriteLine($"Division: {division}");
     }
