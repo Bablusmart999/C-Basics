@@ -1,5 +1,5 @@
 using System;
-class Program
+class Functions
 {
      public int Sum(int x,int y)
         {
@@ -32,11 +32,11 @@ class Program
         Console.WriteLine("Enter the Second Number:");
         int n2 = Convert.ToInt32(Console.ReadLine());
         
-        Program s = new Program();
-        int sum = s.Sum(n1, n2);
-        int subtract = s.Subtract(n1, n2);
-        int multiply = s.Multiply(n1, n2);
-        int division = s.Division(n1, n2);
+        Functions F = new Functions();
+        int sum = F.Sum(n1, n2);
+        int subtract = F.Subtract(n1, n2);
+        int multiply = F.Multiply(n1, n2);
+        int division = F.Division(n1, n2);
         
         Console.WriteLine($"Sum: {sum}");
         Console.WriteLine($"Subtract: {subtract}");
